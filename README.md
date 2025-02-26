@@ -14,11 +14,11 @@ The computer features:
 - **Magnitude Comparator**: Compares two 8-bit values for equality or magnitude.
 - **Clock**: Operates at a 36-second clock cycle (0.027 Hz).
 - **Program Counter**: Supports conditional and unconditional branching, allowing the program to jump to different instructions based on conditions.
-- **Display**: A 7-segment display that converts 8-bit values to base 10 for visualization.
+- **Display**: A 7-segment display that converts 8-bit values to base 10 for visualisation.
 
 ## Design Notes
 
-While I designed an ALU and most of the components, I used three pre-existing designs to optimize space and improve performance. Specifically:
+While I designed an ALU and most of the components, I used three pre-existing designs to optimise space and improve performance. Specifically:
 
 - **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. This design was modified to incorporate a clock and support for conditional branching.
   
@@ -47,14 +47,14 @@ While I designed an ALU and most of the components, I used three pre-existing de
 
 - **Clock**: The computer operates with a slow clock speed of 36 seconds per cycle, reflecting the limitations of Minecraft Redstone in terms of processing speed.
 - **Branching**: Supports both conditional and unconditional jumps based on comparison results, allowing for simple control flow in programs.
-- **Cache**: Stores the last operation result for easy retrieval, optimizing program execution.
+- **Cache**: Stores the last operation result for easy retrieval, optimising program execution.
 - **Operations**: The ALU supports several basic operations, including arithmetic (ADD, SUBTRACT) and logical operations (AND, OR, XOR, NOT).
 - **Fibonacci Sequence Example**: As a demonstration of the computer’s capabilities, the Fibonacci sequence was implemented with instructions to load values, perform operations, and store results in memory.
 
 ## Performance Considerations
 
 - **Clock Speed**: Due to the large number of Redstone components, the clock cycle is relatively slow, and performance is limited to basic operations.
-- **Space Optimization**: The use of the ALU design from **n00b_asaurus** and the program counter modification allowed for significant space-saving, making the build more compact and faster.
+- **Space Optimisation**: The use of the ALU design from **n00b_asaurus** and the program counter modification allowed for significant space-saving, making the build more compact and faster.
 
 ## Acknowledgements
 
