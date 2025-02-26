@@ -16,7 +16,7 @@ The computer features:
 
 ## Design Notes
 
-While I designed the ALU and many of the core components, I used several pre-existing designs to optimize space and improve performance. Specifically:
+While I designed an ALU and most of the components, I used three pre-existing designs to optimize space and improve performance. Specifically:
 
 - **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. This design was modified to incorporate a clock and support for conditional branching.
   
