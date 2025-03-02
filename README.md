@@ -20,9 +20,9 @@ The computer features:
 
 While I designed an ALU and most of the components, I used three pre-existing designs to optimise space and improve performance. Specifically:
 
-- **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. This design was modified to incorporate a clock and support for conditional branching.
+- **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. I modified the design to incorporate a clock and support for conditional branching.
   
-- **BCD to Binary Converter**: A standard design was used for converting 8-bit values to Binary-Coded Decimal (BCD), which is essential for driving the 7-segment display.
+- **Binary to BCD Converter**: A standard design was used for converting 8-bit values to Binary-Coded Decimal (BCD).
   
 - **ALU**: Although I initially designed my own ALU, I opted for a more compact and efficient version created by the user **n00b_asaurus**. This design greatly reduced space usage and increased the clock speed of the computer.
 
