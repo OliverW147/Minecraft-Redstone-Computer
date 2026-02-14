@@ -8,7 +8,7 @@ This project showcases a Minecraft-based computer I designed (mostly) and built 
 
 The computer features:
 
-- **ROM (Instruction Memory)**: 64 registers with 33 words each for storing instructions.
+- **ROM (Instruction Memory)**: 64 registers with 33 bits each for storing instructions.
 - **RAM**: 2 RAM modules, each containing 7 registers and capable of storing 8-bit values.
 - **ALU (Arithmetic Logic Unit)**: Performs basic arithmetic and logical operations such as AND, OR, XOR, NOT, ADD, SUBTRACT, and conditional branching.
 - **Magnitude Comparator**: Compares two 8-bit values for equality or magnitude.
@@ -24,7 +24,7 @@ While I designed an ALU and most of the components, I used three pre-existing de
   
 - **Binary to BCD Converter**: A standard design was used for converting 8-bit values to Binary-Coded Decimal (BCD).
   
-- **ALU**: Although I initially designed my own ALU, I opted for a more compact and efficient version created by the user **n00b_asaurus**. This design greatly reduced space usage and increased the clock speed of the computer.
+- **ALU**: Although I designed my own ALU, I opted for a more compact and efficient version created by the user **n00b_asaurus**. This design greatly reduced space usage and increased the clock speed of the computer.
 
 ## Components Used
 
