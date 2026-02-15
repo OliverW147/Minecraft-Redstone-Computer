@@ -2,7 +2,7 @@
 
 ![1](https://github.com/OliverW147/Minecraft-Redstone-Computer/blob/main/1.png?raw=true)
 
-This project showcases a Minecraft-based computer I designed (mostly) and built mainly over y11 school holidays using Redstone logic gates, latches, and clocks. The computer operates with basic components like Redstone Wire, Redstone Torches, Repeaters, and Comparators to form a fully functional system. The aim of this build was to construct a simple computational system within Minecraft, including elements like ROM, RAM, an ALU, a program counter, and a display system.
+This project showcases a Minecraft-based computer I designed (mostly) and built mainly over y10 school holidays using Redstone logic gates, latches, and clocks. The computer operates with basic components like Redstone Wire, Redstone Torches, Repeaters, and Comparators to form a fully functional system. The aim of this build was to construct a simple computational system within Minecraft, including elements like ROM, RAM, an ALU, a program counter, and a display system.
 
 ## Computer Overview
 
