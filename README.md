@@ -17,14 +17,6 @@ The computer features:
 - **Display**: A 7-segment display used to visualise 4-bit digits after double dabble algorithm.
 - **Fibonacci Sequence Example**: As a demonstration of the computer’s capabilities, the Fibonacci sequence was implemented with instructions to load values, perform operations, and store results in memory.
 
-## Design Notes
-
-While I designed an ALU and most of the components, I used three pre-existing designs to optimise space and improve performance. Specifically:
-
-- **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. I modified the design to incorporate a clock and support for conditional branching.
-- **Binary to BCD Converter**: A standard design was used for converting 8-bit values to Binary-Coded Decimal (BCD).
-- **ALU**: Although I designed my own ALU, I opted for a more compact and efficient version created by **n00b_asaurus**. This design greatly reduced space usage and increased the clock speed of the computer.
-
 ## Components Used
 
 ### Redstone Components:
@@ -32,6 +24,14 @@ While I designed an ALU and most of the components, I used three pre-existing de
 - **Redstone Torches**: Act as power sources and can be used as inverters (NOT gates) in logic circuits.
 - **Redstone Repeaters**: Used for signal boosting and adding delay, essential for timing and latches.
 - **Redstone Comparators**: Compare and subtract signals, useful for creating magnitude comparators and conditional logic.
+
+## Design Notes
+
+While I designed an ALU and most of the components, I used three pre-existing designs to optimise space and improve performance. Specifically:
+
+- **Program Counter**: I adapted a pre-existing design for the program counter, which was sourced from the internet. I modified the design to incorporate a clock and support for conditional branching.
+- **Binary to BCD Converter**: A standard design was used for converting 8-bit values to Binary-Coded Decimal (BCD).
+- **ALU**: Although I designed my own ALU, I opted for a more compact and efficient version created by **n00b_asaurus**. This design greatly reduced space usage and increased the clock speed of the computer.
 
 ## License
 
